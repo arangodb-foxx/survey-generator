@@ -2,10 +2,10 @@
 
 const db = require("@arangodb").db;
 const gm = require("@arangodb/general-graph");
-const graphname = module.context.collectionName("survey"),
-const questions = module.context.collectionName("questions"),
-const products = module.context.collectionName("products"),
-const answers = module.context.collectionName("answers"),
+const graphname = module.context.collectionName("survey");
+const questions = module.context.collectionName("questions");
+const products = module.context.collectionName("products");
+const answers = module.context.collectionName("answers");
 
 try {
   gm._drop(graphname, true);

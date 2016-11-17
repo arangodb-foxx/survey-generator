@@ -4,9 +4,9 @@ const db = require('@arangodb').db;
 const gm = require('@arangodb/general-graph');
 const graphname = module.context.collectionName('survey');
 if (!gm._exists(graphname)) {
-  const questions = module.context.collectionName('questions'),
-  const products = module.context.collectionName('products'),
-  const answers = module.context.collectionName('answers'),
+  const questions = module.context.collectionName('questions');
+  const products = module.context.collectionName('products');
+  const answers = module.context.collectionName('answers');
   const relation = gm._relation(answers, [questions], [questions, products]);
   const g = gm._create(graphname, [relation]);
   // Insert some queries for our arango shop
