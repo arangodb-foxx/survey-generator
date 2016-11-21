@@ -1,5 +1,5 @@
 {
-  "name":"aye-aye",
+  "name":"survey-generator",
   "version":"1.4.0",
   "description":"A demo application of a survey generator created using Foxx and ArangoDBs graph features.",
   "author":"Michael Hackstein",
@@ -13,7 +13,9 @@
   "defaultDocument":"index.html",
   "files":{
     "/index.html":{ "path": "files/index.html" },
-    "/app.js":{ "path": "files/app.js" }
+    "/jquery.js":{ "path": "files/jquery-3.1.1.min.js" },
+    "/app.js":{ "path": "files/app.js" },
+    "/style.css":{ "path": "files/style.css" }
   },
   "lib":"."
 }
