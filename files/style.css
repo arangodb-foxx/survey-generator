@@ -1,0 +1,23 @@
+div.background {
+  background-color: #FBFBFB;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+h1.header {
+  color: #283B1B;
+  margin: 0 auto;
+  width: 9em;
+}
+
+button {
+  background-color: #555555;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+}
